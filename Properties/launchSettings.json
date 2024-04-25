@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "brokenaccesscontrol": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7100;http://localhost:5127",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Teste",
+        "JWTSecret": "fedaf7d8863b48e197b9287d492b708e",
+        "SqliteDatabase" : "./Database/brokenaccesscontrol.db"
+      }
+    }
+  }
+}

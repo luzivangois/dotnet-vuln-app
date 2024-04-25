@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "59c0b26a-759a-4bbe-99eb-312c0e8c90ec",
+		"name": "DotNet VulnApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26610676"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "001 - Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Login\":\"\",\n    \"Password\":\"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5127/api/authentication/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"authentication",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "002 - Criar Usuario",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiIxOWQ1NThmOC03YWE4LTQwZjMtOGQ2Zi0wMTIzYjgxNTQ3MzciLCJyb2xlIjoiYWRtaW4iLCJuYmYiOjE2ODEzMzI1NTcsImV4cCI6MTY4MTMzOTc1NywiaWF0IjoxNjgxMzMyNTU3fQ.EtC07HVmOy5Tw8PuDau5d6Mob2-MgZg5XrEeBo3BFZU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Name\":\"\",\n    \"Login\":\"\",\n    \"Password\":\"\",\n    \"IsAdmin\": false\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5127/api/User",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "003 - Listar Usuarios",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5127/api/User/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"User",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "004 - Listar Usuarios por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5127/api/User/{id}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"User",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "005 - Deletar Usuario",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5127/api/User/{id}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"User",
+								"{id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "006 - loginSQL",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Login\":\"\",\n    \"Password\":\"\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5127/api/authentication/loginsql",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"authentication",
+								"loginsql"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "007 - UploadDocs",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"FileName\" : \"teste.pdf\",\n    \"Content\" : \"Y29udGVudAo=\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5127/api/updatedocs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"updatedocs"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Itens",
+			"item": [
+				{
+					"name": "GET ITENS",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5127/api/ToDoItem/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5127",
+							"path": [
+								"api",
+								"ToDoItem",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "token",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

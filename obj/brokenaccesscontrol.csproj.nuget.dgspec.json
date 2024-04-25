@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/Luiz/Desktop/vivo/DotNetVulnApp/brokenaccesscontrol.csproj": {}
+  },
+  "projects": {
+    "/home/Luiz/Desktop/vivo/DotNetVulnApp/brokenaccesscontrol.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/Luiz/Desktop/vivo/DotNetVulnApp/brokenaccesscontrol.csproj",
+        "projectName": "brokenaccesscontrol",
+        "projectPath": "/home/Luiz/Desktop/vivo/DotNetVulnApp/brokenaccesscontrol.csproj",
+        "packagesPath": "/home/Luiz/.nuget/packages/",
+        "outputPath": "/home/Luiz/Desktop/vivo/DotNetVulnApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/Luiz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.6.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

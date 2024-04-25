@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:DotNetVulnApp}/Database/brokenaccesscontrol.db",
+            "name": "brokenaccesscontrol"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
