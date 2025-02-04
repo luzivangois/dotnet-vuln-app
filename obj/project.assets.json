@@ -2198,32 +2198,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luziv\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/luzivan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luziv\\Documents\\Conviso\\FrontEnd-DotNet\\dotnet-vuln-app\\brokenaccesscontrol.csproj",
+      "projectUniqueName": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj",
       "projectName": "brokenaccesscontrol",
-      "projectPath": "C:\\Users\\luziv\\Documents\\Conviso\\FrontEnd-DotNet\\dotnet-vuln-app\\brokenaccesscontrol.csproj",
-      "packagesPath": "C:\\Users\\luziv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luziv\\Documents\\Conviso\\FrontEnd-DotNet\\dotnet-vuln-app\\obj\\",
+      "projectPath": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj",
+      "packagesPath": "/home/luzivan/.nuget/packages/",
+      "outputPath": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\luziv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/luzivan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2286,7 +2278,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/luzivan/.dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -2296,6 +2288,36 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6xx3-rg99-gc3p",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m44j-cfrm-g8qc",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v435-xc8x-wvr9",
       "libraryId": "BouncyCastle",
       "targetGraphs": [
         "net7.0"

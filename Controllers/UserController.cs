@@ -100,6 +100,7 @@ public class UserController : ControllerBase
     }  
 
 
+    [Authorize(Roles = "admin")]
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(string id)
     {
