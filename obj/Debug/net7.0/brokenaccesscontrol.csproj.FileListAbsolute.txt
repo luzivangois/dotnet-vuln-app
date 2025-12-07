@@ -494,7 +494,6 @@ C:/Users/luziv/Documents/Conviso/FrontEnd-DotNet/dotnet-vuln-app/obj/Debug/net7.
 C:/Users/luziv/Documents/Conviso/FrontEnd-DotNet/dotnet-vuln-app/obj/Debug/net7.0/ref/brokenaccesscontrol.dll
 /Users/luzivangois/Repositories/dotnet-vuln-app/bin/Debug/net7.0/appsettings.Development.json
 /Users/luzivangois/Repositories/dotnet-vuln-app/bin/Debug/net7.0/appsettings.json
-/Users/luzivangois/Repositories/dotnet-vuln-app/bin/Debug/net7.0/Resources/DotNet VulnApp.postman_collection.json
 /Users/luzivangois/Repositories/dotnet-vuln-app/bin/Debug/net7.0/brokenaccesscontrol
 /Users/luzivangois/Repositories/dotnet-vuln-app/bin/Debug/net7.0/brokenaccesscontrol.deps.json
 /Users/luzivangois/Repositories/dotnet-vuln-app/bin/Debug/net7.0/brokenaccesscontrol.runtimeconfig.json
