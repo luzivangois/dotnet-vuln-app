@@ -18,8 +18,6 @@ public class ToDoItemController : ControllerBase
     {
         _logger = logger;
     }   
-
-    // GET: api/ToDoItem
     
     [HttpGet]
     public async Task<IEnumerable<TodoItem>> GetToDoItems()

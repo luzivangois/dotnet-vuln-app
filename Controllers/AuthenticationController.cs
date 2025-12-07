@@ -22,18 +22,16 @@ public class AuthenticationController : ControllerBase
     [Route("login")]
     public async Task<ActionResult> Login([FromBody]LoginRequest login)
     {
-        // Recupera o usuário
         var user = await UserRepository.Login(login);
 
 
-        // Verifica se o usuário existe
         if (user == null)
         {
             AccessLog.Error($"User '{login.Login}' Password '{login.Password}' ERROR");
-            return Unauthorized(new
+            return NotFound(new
             {
-                message = "User not found!"
-                
+                message = "User not found!",
+                id = (string?)null
             });
             
         }
@@ -56,7 +54,8 @@ public class AuthenticationController : ControllerBase
             AccessLog.Error($"User '{login.Login}' Password '{login.Password}'");
             return Unauthorized(new
             {
-                message = "Wrong password!!!"
+                message = "Wrong password!",
+                id = user.Id
             });    
         }
         
@@ -66,11 +65,9 @@ public class AuthenticationController : ControllerBase
     [Route("loginsql")]
     public async Task<ActionResult> LoginSQL([FromBody]LoginRequest login)
     {
-        // Recupera o usuário
         var user = await UserRepository.LoginSQL(login);
 
 
-        // Verifica se o usuário existe
         if (user == null)
         {
             return Unauthorized(new

@@ -2198,19 +2198,19 @@
     ]
   },
   "packageFolders": {
-    "/home/luzivan/.nuget/packages/": {}
+    "/Users/luzivangois/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj",
+      "projectUniqueName": "/Users/luzivangois/Repositories/dotnet-vuln-app/brokenaccesscontrol.csproj",
       "projectName": "brokenaccesscontrol",
-      "projectPath": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj",
-      "packagesPath": "/home/luzivan/.nuget/packages/",
-      "outputPath": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/obj/",
+      "projectPath": "/Users/luzivangois/Repositories/dotnet-vuln-app/brokenaccesscontrol.csproj",
+      "packagesPath": "/Users/luzivangois/.nuget/packages/",
+      "outputPath": "/Users/luzivangois/Repositories/dotnet-vuln-app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/luzivan/.nuget/NuGet/NuGet.Config"
+        "/Users/luzivangois/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -2278,51 +2278,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/luzivan/.dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6xx3-rg99-gc3p",
-      "libraryId": "BouncyCastle",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv",
-      "libraryId": "BouncyCastle",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m44j-cfrm-g8qc",
-      "libraryId": "BouncyCastle",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'BouncyCastle' 1.8.6.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v435-xc8x-wvr9",
-      "libraryId": "BouncyCastle",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

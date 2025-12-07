@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj": {}
+    "/Users/luzivangois/Repositories/dotnet-vuln-app/brokenaccesscontrol.csproj": {}
   },
   "projects": {
-    "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj": {
+    "/Users/luzivangois/Repositories/dotnet-vuln-app/brokenaccesscontrol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj",
+        "projectUniqueName": "/Users/luzivangois/Repositories/dotnet-vuln-app/brokenaccesscontrol.csproj",
         "projectName": "brokenaccesscontrol",
-        "projectPath": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/brokenaccesscontrol.csproj",
-        "packagesPath": "/home/luzivan/.nuget/packages/",
-        "outputPath": "/home/luzivan/Conviso/Conviso Academy/dotnet-vuln-app/obj/",
+        "projectPath": "/Users/luzivangois/Repositories/dotnet-vuln-app/brokenaccesscontrol.csproj",
+        "packagesPath": "/Users/luzivangois/.nuget/packages/",
+        "outputPath": "/Users/luzivangois/Repositories/dotnet-vuln-app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/luzivan/.nuget/NuGet/NuGet.Config"
+          "/Users/luzivangois/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/luzivan/.dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
         }
       }
     }
