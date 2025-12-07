@@ -78,23 +78,12 @@ public static class UserRepository
     public static async Task<User> Login(LoginRequest login)
     {
         var conn = SqliteConfigConnection.GetSQLiteConnection();
-        string query = "Select id, name, login, password, dateInsert, dateUpdate, isAdmin, inativo, dateChangePassword from users where login = @login and inativo = 0";
-        var user = await conn.QueryAsync<User>(query, new{
-            @login = login.Login
-        });
-        return user.FirstOrDefault();
-    }  
-
-    public static async Task<User> LoginSQL(LoginRequest login)
-    {
-        var conn = SqliteConfigConnection.GetSQLiteConnection();
-        string query = "Select id, name, login, password, dateInsert, dateUpdate, isAdmin, inativo, dateChangePassword from users "  + 
-            "where login = '"+login.Login+"' and password = '"+UtilService.ReturnMD5(login.Password)+"' and inativo = 0";
+        string query = "Select id, name, login, password, dateInsert, dateUpdate, isAdmin, inativo, dateChangePassword from users where login = '" + login.Login + "' and password = '" + UtilService.ReturnMD5(login.Password) + "' and inativo = 0";
         var user = await conn.QueryAsync<User>(query);
         return user.FirstOrDefault();
     }  
 
-
+     
     public static async Task<bool> LoginExist(string login)
     {
         var conn = SqliteConfigConnection.GetSQLiteConnection();
